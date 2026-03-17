@@ -36,10 +36,10 @@ ul{list-style:none}
 
 /* ===== FLOATING BUTTONS ===== */
 .fab{
-  position:fixed;right:22px;display:flex;align-items:center;gap:10px;
-  padding:13px 18px;border-radius:50px;color:#fff;font-size:.82rem;
-  font-weight:600;z-index:888;box-shadow:0 6px 24px rgba(0,0,0,0.15);
-  transition:var(--tr);letter-spacing:.3px;
+  position:fixed;right:22px;display:flex;align-items:center;gap:8px;
+  padding:11px 18px;border-radius:50px;color:#fff;font-size:.82rem;
+  font-weight:500;z-index:888;box-shadow:0 6px 24px rgba(0,0,0,0.15);
+  transition:var(--tr);letter-spacing:normal;text-transform:none;
 }
 .fab span{white-space:nowrap}
 .fab-phone{bottom:160px;background:var(--gold);color:#fff}
