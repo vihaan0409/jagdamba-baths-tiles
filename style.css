@@ -35,18 +35,19 @@ ul{list-style:none}
 @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.7;transform:scale(.97)}}
 
 /* ===== FLOATING BUTTONS ===== */
-.fab{
+.float-btn{
   position:fixed;right:22px;display:flex;align-items:center;gap:8px;
   padding:11px 18px;border-radius:50px;color:#fff;font-size:.82rem;
-  font-weight:500;z-index:888;box-shadow:0 6px 24px rgba(0,0,0,0.15);
+  font-family:'Inter',sans-serif;font-weight:500;z-index:888;
+  box-shadow:0 6px 24px rgba(0,0,0,0.15);
   transition:var(--tr);letter-spacing:normal;text-transform:none;
 }
-.fab span{white-space:nowrap}
-.fab-phone{bottom:160px;background:var(--gold);color:#fff}
-.fab-wa{bottom:104px;background:#25d366}
-.fab-phone:hover{background:var(--gold2);transform:translateX(-4px)}
-.fab-wa:hover{background:#1fb856;transform:translateX(-4px)}
-@media(max-width:600px){.fab span{display:none}.fab{padding:14px;border-radius:50%}}
+.float-btn span{white-space:nowrap;font-family:'Inter',sans-serif;font-weight:500;text-transform:none}
+.float-btn-phone{bottom:160px;background:var(--gold);color:#fff}
+.float-btn-wa{bottom:104px;background:#25d366}
+.float-btn-phone:hover{background:var(--gold2);transform:translateX(-4px)}
+.float-btn-wa:hover{background:#1fb856;transform:translateX(-4px)}
+@media(max-width:600px){.float-btn span{display:none}.float-btn{padding:14px;border-radius:50%}}
 
 /* ===== NAVBAR ===== */
 #navbar{
