@@ -66,6 +66,11 @@ ul{list-style:none}
 }
 .brand{display:flex;align-items:center}
 .nav-logo-img{height:56px;width:auto;object-fit:contain;display:block}
+.text-logo{display:flex;flex-direction:column;line-height:1.1;text-decoration:none}
+.text-logo .tl-main{font-family:'Cormorant Garamond',serif;font-size:1.55rem;font-weight:700;letter-spacing:2px;color:#1a1a1a;text-transform:uppercase}
+.text-logo .tl-sub{font-size:0.6rem;font-weight:600;letter-spacing:3px;color:var(--gold);text-transform:uppercase;margin-top:2px}
+.text-logo-footer .tl-main{color:#fff}
+.text-logo-footer .tl-sub{color:var(--gold2)}
 .nav-menu{display:flex;align-items:center;gap:30px}
 .nav-menu a{
   color:var(--text2);font-size:.84rem;font-weight:500;
